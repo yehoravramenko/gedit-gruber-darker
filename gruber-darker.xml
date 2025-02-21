@@ -56,6 +56,7 @@
 
   <!-- Constants -->
   <style name="def:string"                  foreground="gruber-darker-green"/>
+  <style name="def:character"               use-style="def:string"/>
   <style name="def:special-char"            foreground="gruber-darker-green"/>
 
   <!-- Identifiers -->
@@ -65,13 +66,14 @@
   <style name="def:statement"               foreground="gruber-darker-yellow" bold="true"/>
 
   <!-- Types -->
-  <style name="def:type"                    foreground="gruber-darker-yellow" bold="true"/>
+  <style name="def:type"                    foreground="gruber-darker-quartz" />
 
   <!-- Others -->
   <style name="def:preprocessor"            foreground="gruber-darker-quartz"/>
   <style name="def:error"                   background="gruber-darker-red+1"/>
   <style name="def:warning"                 foreground="gruber-darker-brown" bold="true"/>
   <style name="def:keyword"                 foreground="gruber-darker-yellow" bold="true"/>
+  <style name="def:builtin"                 foreground="gruber-darker-yellow"/>
 
   <!-- Heading styles, uncomment to enable -->
   <!--
